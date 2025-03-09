@@ -1,0 +1,177 @@
+/* 기본 헤더 스타일 */
+header {
+  #logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* body 스타일 */
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  background-color: #ffffff;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3 {
+  font-size: 22px;
+  color: #3a309b;
+  border-style: ridge;
+  padding: 10px;
+  background-color: rgb(226, 201, 226);
+}
+p {
+  border-style: solid;
+  border-color: #ffffff;
+  width: 210px;
+  height: 25px;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-radius: 10px;
+  font-family: century gothic;
+  font-size: 18px;
+  text-align: center;
+}
+h5 {
+  font-size: 15px;
+  color: #1d86f5;
+}
+/* Todo 컨테이너 스타일 */
+
+.todo-container {
+  background: rgb(247, 235, 254);
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 800px;
+}
+
+.complete-container {
+  background: rgb(246, 231, 255);
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 750px;
+}
+.inner-container {
+  background: rgb(248, 236, 249);
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+}
+/* input 스타일 */
+input {
+  width: 70%;
+  padding: 13px;
+  margin: 5px 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* 버튼 기본 스타일 */
+button {
+  display: center;
+  align-items: center;
+  gap: 8px; /* 아이콘과 텍스트 간격 */
+  padding: 8px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: px;
+}
+
+/* 버튼 호버 효과 */
+button:hover {
+  background-color: #4c534d;
+}
+button:active {
+  background-color: rgb(255, 0, 0);
+}
+/* 버튼 이미지 크기 조정 */
+button img {
+  width: 23px; /* 아이콘 크기 조정 */
+  height: 23px;
+}
+
+/* 완료, 삭제 버튼 - initial, hover, active 맞는 색상 */
+#add-btn {
+  background-color: #505bef;
+}
+#add-btn:hover {
+  background-color: #4c534d;
+}
+#add-btn:active {
+  background-color: black;
+}
+
+#complete-btn {
+  background-color: #eb5060;
+}
+#complete-btn:hover {
+  background-color: #4c534d;
+}
+#complete-btn:active {
+  background-color: black;
+}
+/* 얘를 hover 썼더니,, 아래 애가 hover 시, black 나옴 ㄷ..*/
+
+#delete-btn {
+  background-color: #a5d6c9;
+  margin-left: 610px;
+  margin-top: -20px;
+  width: 160px;
+}
+#delete-btn:hover {
+  background-color: #4c534d;
+}
+#delete-btn:active {
+  background-color: black;
+}
+
+/* 리스트 스타일 */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* 리스트 아이템 스타일 */
+li {
+  padding: 10px;
+  background: rgb(252, 255, 249);
+  margin: 5px 0;
+  padding-left: 4%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+li.selected {
+  background-color: #e0d3ec;
+}
+/* 완료된 항목 스타일 */
+li.completed {
+  text-decoration: line-through;
+  color: rgb(255, 255, 255);
+}
+mark {
+  background-color: #c5defd;
+}
+
+h4 {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+footer {
+  font-size: 15px;
+  font-style: oblique;
+}
