@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="Ko">
+  <head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo 리스트</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css" />
+ 
+  </head>
+  
+  <body>
+      <header>
+        <a href="main.html"><img src="../images/logo.png" alt="Logo" id="logo"></a>
+      </header>
+
+    <h3> My Todo List</h3>
+    <h4> "성공적" 하루를 위한 목표를 세우고, 성취해보세요.</h4>
+    
+    <section class="todo-container">
+      <input
+        type="text"
+        id="todo-input"
+        placeholder="오늘의 목표는?!"
+      />
+      <button id="add-btn">
+        <img src="../images/add.png" alt="추가" /> add
+      </button>
+      <button id="complete-btn">
+        <img src="../images/complete.png" alt="완료" /> clear
+
+
+      </button>
+
+      <button id="delete-btn">
+        <img src="../images/delete.png" alt="삭제" /> delete
+      </button>
+      
+      <div class="complete-container">
+      <p> 건강 챌린지  ~ #0# </p>
+      <ul>
+          <li>아침 - 영양제 먹기</li>
+          <li>점심 - 줄넘기 200개 </li>
+          <li>저녁 - 복싱 </li>
+      </ul>
+      <ul id="todo-list"></ul>
+    </br>
+      
+      <div class="inner-container"> <p> Today's clear goal !! </p> 
+      <ul>
+        <li> 출근하기 </li>
+        <li> 점심 먹기 </li>
+      </ul>
+      <ul id="complete-list"></ul>
+    
+    </div> </br>
+      <button onclick="location.href='people.html'">친구 목표 염탐하러 가기</button>
+
+    </div>
+  </br>
+
+  <section div class="complete-container">
+    <h4> 지난 달성목표</h4>
+    <h5> * 지난 주 목표 all Clear! *0*  </h5>
+
+    <section>
+      <div class="inner-container">
+        <p> 1주 전, 달성 목표</p>
+        <ul>
+          <li><mark>&nbsp;e북&nbsp;</mark>&nbsp; 20p 이상 읽기 </li>
+          <li> 강아지와 1시간 이상 산책</li>
+          <li> <strong>전시회 </strong> &nbsp; 사진 정리 (10장) </li>
+        </ul>
+      </section>
+    </section>
+  </section>
+
+    <h4> what's your dream..? </h4>
+    <script src="main.js"></script>
+  </body>
+  <footer> &copy;: LU - 문의: 010-1234-5678</footer>
+</html>
